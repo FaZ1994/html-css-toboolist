@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 10px;
+  margin: 1px solid;
+}
+
+header img {
+  padding-right: 5px;
+}
+
+h1 {
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 40px;
+}
+
+main {
+  height: 2000px;
+  background-color: rgb(241, 241, 241);
+}
+
+.box, nav {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+nav {
+  border-top: 30px solid rgb(241, 241, 241);
+  border-bottom: 1px solid lightgrey;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: lightgray;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+.label {
+  background-color: rgb(139, 139, 139);
+  display: inline-block;
+  border-radius: 15px;
+  padding: 8px;
+  color: white;
+  font-size: 10px;
+}
+
+.editorial {
+  background-color: blue;
+}
+
+.q1 {
+  background-color: blueviolet;
+}
+
+.recruiting {
+  background-color: mediumseagreen;
+}
+
+.mobile {
+  background-color: orange;
+}
+
+.website {
+  background-color: rgb(253, 119, 235);
+}
+
+.sales {
+  background-color: rgb(150, 197, 40);
+}
