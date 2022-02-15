@@ -19,6 +19,7 @@ h1 {
   font-size: 40px;
 }
 
+
 main {
   height: 2000px;
   background-color: rgb(241, 241, 241);
@@ -37,17 +38,30 @@ nav {
   border-bottom: 1px solid lightgrey;
 }
 
-button,
-input[type="submit"],
-input[type="reset"] {
-  background: lightgray;
-  color: inherit;
-  border: none;
+button
+{
+  background: white;
+  color: lightgray;
+  border: 1px solid lightgray;
   font: inherit;
   cursor: pointer;
-  outline: inherit;
   border-radius: 5px;
   padding: 5px;
+}
+
+.task {
+    background: #45abea;
+}
+
+.done {
+    width: 20px;
+    height: 20px;
+    color: green;
+    border-radius: 50px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
 }
 
 ul {
@@ -69,25 +83,25 @@ li {
 }
 
 .editorial {
-  background-color: blue;
+  background-color: #45abea;
 }
 
 .q1 {
-  background-color: blueviolet;
+  background-color: #9c72e4;
 }
 
 .recruiting {
-  background-color: mediumseagreen;
+  background-color: #64c0a9;
 }
 
 .mobile {
-  background-color: orange;
+  background-color: #f29e33;
 }
 
 .website {
-  background-color: rgb(253, 119, 235);
+  background-color: #d863a1;
 }
 
 .sales {
-  background-color: rgb(150, 197, 40);
+  background-color: #b0c926;
 }
