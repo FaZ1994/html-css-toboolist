@@ -19,13 +19,13 @@ h1 {
   font-size: 40px;
 }
 
-
 main {
   height: 2000px;
   background-color: rgb(241, 241, 241);
 }
 
-.box, nav {
+.box,
+nav {
   margin: auto;
   width: 50%;
   background-color: white;
@@ -38,8 +38,7 @@ nav {
   border-bottom: 1px solid lightgrey;
 }
 
-button
-{
+button {
   background: white;
   color: lightgray;
   border: 1px solid lightgray;
@@ -50,18 +49,26 @@ button
 }
 
 .task {
-    background: #45abea;
+  background: #45abea;
+  color: white;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
 }
 
 .done {
-    width: 20px;
-    height: 20px;
-    color: green;
-    border-radius: 50px;
-    border: 1px solid;
-    text-align: center;
-    font-size: 15px;
-    display: inline-block;
+  color: green;
+}
+
+.undone {
+  color: rgb(179, 0, 0);
 }
 
 ul {
