@@ -12,6 +12,7 @@ header {
 
 header img {
   padding-right: 5px;
+  vertical-align: middle;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
   display: inline-block;
   font-size: 40px;
   color: black;
+  vertical-align: middle;
 }
 
 h2 {
